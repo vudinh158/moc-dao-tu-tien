@@ -38,12 +38,14 @@ Dự án sử dụng các thiết bị IoT gắn trực tiếp vào chậu cây 
 
 ---
 
-## 📂 Cấu trúc tài liệu
+## 📂 Cấu trúc dự án
 
-Tất cả các tài liệu chi tiết về dự án được lưu trữ trong thư mục [`docs/`](./docs/):
+Toàn bộ dự án được chia thành các phân hệ chính sau, mỗi thư mục đều có `README.md` cấu hình riêng biệt:
 
-- 📄 **[BRD.md](./docs/BRD.md):** Business Requirements Document - Mục tiêu và phạm vi kinh doanh (v3.0).
-- 📄 **[PRD.md](./docs/PRD.md):** Product Requirements Document - Yêu cầu tính năng và luồng nghiệp vụ (v2.0).
+- 📄 **[docs/](./docs/):** Lưu trữ tài liệu phân tích, kỹ thuật, và báo cáo (BRD, PRD, SRS, Hardware Spec).
+- 🖥️ **[backend/](./backend/):** Mã nguồn Backend (RESTful API, Telemetry Xử lý, tính toán Tu Vi, Admin Suite).
+- 🌐 **[frontend/](./frontend/):** Mã nguồn Frontend (Web App Gamification, Dashboard).
+- 🔌 **[firmware/](./firmware/):** Mã nguồn IoT Firmware (đọc cảm biến, gửi dữ liệu, xác thực thiết bị).
 
 ---
 
