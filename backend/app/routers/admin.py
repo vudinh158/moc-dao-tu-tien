@@ -1,4 +1,4 @@
-"""Router Admin — Dashboard thống kê, quản lý thiết bị, cấu hình."""
+"""Router Admin — Dashboard thống kê, quản lý thiết bị, cấu hình...."""
 
 import logging
 from uuid import UUID
