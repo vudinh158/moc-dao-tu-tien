@@ -1,3 +1,5 @@
+.agents/rules/
+.DS_Store
 # Logs
 logs
 *.log
